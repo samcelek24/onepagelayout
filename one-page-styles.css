@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+#header{
+	padding:0;
+	margin-top:-30px;
+	margin-left:-10px;
+	width:960px;
+	position:fixed;
+	background-repeat:repeat-y;
+	}
+body{
+	margin-top:30px;
+}
+section{
+	float:left;
+	width: 660px;
+	margin-top:150px;
+	margin-left:50px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:20px;
+	line-height:35px;
+	word-spacing:5px;
+	text-justify:auto;
+	text-indent:hanging;
+}
+br{ 
+	line-height:20px;
+	text-height:10px;
+}
+aside{
+	float:right;
+	width:590px;
+	margin-top:155px;
+	padding-top:20px;
+}
+	
+	
+
