@@ -1,38 +1,59 @@
 @charset "UTF-8";
 /* CSS Document */
-#header{
-	padding:0;
-	margin-top:-30px;
-	margin-left:-10px;
-	width:960px;
+header{
+	width:100%;
+	background-color:#daaa18;
+	height:116px;
+	top:0;
+	left:0;
 	position:fixed;
-	background-repeat:repeat-y;
+	padding-left:3%;
 	}
-body{
-	margin-top:30px;
+header img{
+	float: left;
 }
-section{
+h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+    font-size:70px;
+    margin-top:2%;
 	float:left;
-	width: 660px;
-	margin-top:150px;
-	margin-left:50px;
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-	font-size:20px;
-	line-height:35px;
-	word-spacing:5px;
+
+}
+body{
+	width:100%;
+}
+#textColumn{
+	float:left;
+	width:40%;
+	margin-left:3%;
+	margin-top:18%;
 	text-justify:auto;
 	text-indent:hanging;
+	
 }
-br{ 
-	line-height:20px;
-	text-height:10px;
+p{
+	font-family:Arial, Helvetica, sans-serif;
+	width:90%;
+    padding-left:5%;
+    padding-right:5%;
+	margin-top:0;
+	padding-top:0;
+    font-size:18px;
+    line-height:30px;
 }
-aside{
+#greenSmile{
 	float:right;
-	width:590px;
-	margin-top:155px;
-	padding-top:20px;
+	width:40%;
+	margin-top:18%;
+	padding-left:5%;
+	padding-right:5%;
+	
 }
+#greenSmile img{
+	width:100%;
+}
+
 	
 	
 
